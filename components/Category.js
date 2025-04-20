@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Category({ product,onDelete }) {
   const router = useRouter();
@@ -38,7 +39,7 @@ export default function Category({ product,onDelete }) {
           width: "48%", 
         }}
       >
-        See
+        <i className="bi bi-eye-fill"></i>
       </button>
 
       <button
@@ -48,7 +49,7 @@ export default function Category({ product,onDelete }) {
           width: "48%", 
         }}
       >
-        Delete
+        <i className="bi bi-trash3-fill"></i>
       </button>
     </div>
   </div>

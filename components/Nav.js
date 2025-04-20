@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import 'bulma/css/bulma.min.css';
 import { useRouter } from 'next/navigation';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 export default function Nav() {
@@ -18,7 +19,7 @@ export default function Nav() {
                         className="button is-light"
                         onClick={() => router.back()} // Bouton pour revenir à la page précédente
                     >
-                        Retour
+                        <i className="bi bi-arrow-90deg-left"></i>
                     </button>
                 </div>
             </div>

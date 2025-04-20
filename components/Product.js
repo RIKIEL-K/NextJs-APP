@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Article({ product ,onDelete ,onEdit,onSee}) {
     return (
@@ -23,7 +24,8 @@ export default function Article({ product ,onDelete ,onEdit,onSee}) {
           className="button is-primary card-footer-item"
           onClick={() => onSee(product.id)}
         >
-          See
+          <i className="bi bi-eye-fill"></i>
+
         </button>
             <button
             className="button is-info card-footer-item"
@@ -32,7 +34,7 @@ export default function Article({ product ,onDelete ,onEdit,onSee}) {
             width: "48%", 
             }}
         >
-            Delete
+            <i className="bi bi-trash3-fill"></i>
         </button>
         <button
             className="button is-warning card-footer-item"
@@ -41,7 +43,7 @@ export default function Article({ product ,onDelete ,onEdit,onSee}) {
             width: "48%", 
             }}
         >
-            Edit
+            <i className="bi bi-pen-fill"></i>
         </button>
         </footer>
       </div>

@@ -33,11 +33,11 @@ export default function CategoryList() {
     style={{
       display: "flex",
       flexWrap: "wrap",
-      justifyContent: "center",  // Centre les cartes horizontalement
-      alignItems: "center",      // Centre les cartes verticalement
+      justifyContent: "center",  
+      alignItems: "center",     
       gap: "1rem",
-      height: "100vh",           // Assure-toi que la page occupe toute la hauteur de l'écran
-      padding: "1rem",           // Ajoute un peu de marge autour des cartes
+      height: "100vh",           
+      padding: "1rem",          
     }}
   >
     {categories.map((category) => (

@@ -1,6 +1,7 @@
 "use client";
 import Link from 'next/link';
 import 'bulma/css/bulma.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export const Navbar = () => {
     return (

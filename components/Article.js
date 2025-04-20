@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export default function Article({ article ,onDelete ,onEdit}) {
     return (
@@ -27,7 +28,7 @@ export default function Article({ article ,onDelete ,onEdit}) {
             width: "48%", 
             }}
         >
-            Delete
+            <i className="bi bi-trash3-fill"></i>
         </button>
         <button
             className="button is-warning card-footer-item"
@@ -36,7 +37,7 @@ export default function Article({ article ,onDelete ,onEdit}) {
             width: "48%", 
             }}
         >
-            Edit
+            <i className="bi bi-pen-fill"></i>
         </button>
         </footer>
       </div>

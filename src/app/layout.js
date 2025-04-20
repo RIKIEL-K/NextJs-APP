@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../../components/Navbar";
 import 'bulma/css/bulma.min.css';
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
